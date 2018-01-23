@@ -7,14 +7,15 @@
  * URL: http://blacktie.co
  */
 
+
+
 body {
   background-color: #f2f2f2;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
-
-    -webkit-font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -29,14 +30,32 @@ h1 {
 	font-size: 40px;
 }
 
+.logo {
+    text-transform: uppercase;
+    color:#E8A19D;
+    font-weight:700!important;
+    font-family: 'Denk One', sans-serif;
+
+}
+
+.maintitle {
+color:#fff!important;
+text-align:center;
+}
+
+
+
+
+
 h3 {
-	color: #95a5a6;
-	font-weight: 400;
+	color: #fff;
+    font-weight: 400;
+    font-size: 2em;
 }
 
 h4 {
-	color: #95a5a6;
-	font-weight: 400;
+	color: #ffffff;
+	font-weight: 600;
 	font-size: 20px;
 }
 
@@ -50,6 +69,18 @@ p {
 .centered {
     text-align: center;
 }
+
+.call {
+font-size: 1.4em;
+color: #fff;
+}
+
+
+
+
+
+
+
 
 /* Links */
 a {
@@ -119,18 +150,18 @@ i {
 	color: #3498db; 
 }
 
-
 /* HeaderWrap */
 #headerwrap {
-	/* background: url(../img/bg01.jpg) no-repeat center top; */
-	background-color: #3498db;
-	margin-top: -20px;
-	padding-top:200px;
+    /* background: url(../img/bg01.jpg) no-repeat center top; */
+    background-image: url(../img/fondform.jpeg);
+    background-size: cover;
+    padding-top:100px;
+    padding-bottom: 12em;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-	
+	text-align: center;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -149,4 +180,22 @@ i {
 	font-size: 45px;
 	font-weight: 300;
 	letter-spacing: 1px;
+}
+
+#mainvisual {
+background-image: url(../img/fondbottom.jpeg);
+background-size: cover;
+width: 100%;
+min-height:100vh;
+padding-top: 12em;
+}
+
+.col-sm-auto img{
+padding-right: 0.8em!important;
+}
+
+
+.col-sm-auto {
+margin: 0 auto; 
+text-align: center;   
 }
