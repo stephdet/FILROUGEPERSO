@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+ }
+
+
+body {
+    background-color:#fff;
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5rem; 
+  }
+
+/*MAINBRAND*/
+#mainlogo {
+ text-transform:uppercase;
+ color: #16A085;
+}
+
+
+
+
+
+/*MAINNAV*/
+
+.mainmenu ul li,.footer ul li {
+    float:left;
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    /* padding-left:1rem; */
+}
+
+.mainmenu ul li a {
+    display: block;
+    width:100px;
+    height:100px;
+    /* padding: 1em; */
+    text-align: center;
+    padding-top: 1em;
+    font-size: 2.5rem;
+    color:#fff;
+    text-decoration: none;
+}
+
+.green {
+    background: #16A085;
+}
+
+
+.blue {
+    background: #56CCF2;
+}
+
+.orange {
+    background: #FA7A32;
+}
+
+.yellow {
+    background: #F2C94C;
+}
